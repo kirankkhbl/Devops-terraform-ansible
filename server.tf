@@ -8,10 +8,10 @@ terraform {
 }
 
 provider "aws" {
-region = "us-west-1"
+region = "us-east-1"
 }
 resource "aws_instance" "myawsserver" {
-  ami = "ami-09c72d5a7ce529ad5"
+  ami = "ami-0f409bae3775dc8e5"
   instance_type = "t2.micro"
   key_name = "kiran_cicd"
 
